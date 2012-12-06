@@ -16,6 +16,10 @@
 		6C97B2B51670382E005B15D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C97B2B41670382E005B15D4 /* Default.png */; };
 		6C97B2B71670382E005B15D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C97B2B61670382E005B15D4 /* Default@2x.png */; };
 		6C97B2B91670382E005B15D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C97B2B81670382E005B15D4 /* Default-568h@2x.png */; };
+		6C97B2C916703A88005B15D4 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C97B2C716703A88005B15D4 /* MainMenu.m */; };
+		6C97B2CA16703A88005B15D4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C97B2C816703A88005B15D4 /* MainMenu.xib */; };
+		6C97B2CE16703C76005B15D4 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C97B2CC16703C76005B15D4 /* GameController.m */; };
+		6C97B2CF16703C76005B15D4 /* GameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C97B2CD16703C76005B15D4 /* GameController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,12 @@
 		6C97B2B41670382E005B15D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6C97B2B61670382E005B15D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6C97B2B81670382E005B15D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6C97B2C616703A88005B15D4 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		6C97B2C716703A88005B15D4 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		6C97B2C816703A88005B15D4 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		6C97B2CB16703C76005B15D4 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		6C97B2CC16703C76005B15D4 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		6C97B2CD16703C76005B15D4 /* GameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,10 @@
 		6C97B2BF1670384F005B15D4 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6C97B2C616703A88005B15D4 /* MainMenu.h */,
+				6C97B2C716703A88005B15D4 /* MainMenu.m */,
+				6C97B2CB16703C76005B15D4 /* GameController.h */,
+				6C97B2CC16703C76005B15D4 /* GameController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -119,6 +133,8 @@
 		6C97B2C11670385C005B15D4 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				6C97B2CD16703C76005B15D4 /* GameController.xib */,
+				6C97B2C816703A88005B15D4 /* MainMenu.xib */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -178,6 +194,8 @@
 				6C97B2B51670382E005B15D4 /* Default.png in Resources */,
 				6C97B2B71670382E005B15D4 /* Default@2x.png in Resources */,
 				6C97B2B91670382E005B15D4 /* Default-568h@2x.png in Resources */,
+				6C97B2CA16703A88005B15D4 /* MainMenu.xib in Resources */,
+				6C97B2CF16703C76005B15D4 /* GameController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +208,8 @@
 			files = (
 				6C97B2AF1670382E005B15D4 /* main.m in Sources */,
 				6C97B2B31670382E005B15D4 /* AppDelegate.m in Sources */,
+				6C97B2C916703A88005B15D4 /* MainMenu.m in Sources */,
+				6C97B2CE16703C76005B15D4 /* GameController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
